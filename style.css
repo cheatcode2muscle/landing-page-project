@@ -1,0 +1,224 @@
+body{
+     display:flex;
+     flex-direction: column;
+}
+#background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    filter: brightness(1.2);
+    z-index: -2;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: white;
+    padding: 20px 50px;
+    font-size: 50px;
+}
+.header img{
+    width: 5em;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+    font-family: bangers;
+  }
+
+a{
+    color: white; 
+    text-decoration: none;
+}
+.Hero{
+    width: 85%;
+    height: 100%;
+    border-radius: 1.5em;
+    margin: 9em auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 2em rgb(69, 69, 69);
+    border-style: solid;
+    border-color: white;
+}
+.Hero h2{
+    font-size: 3em;
+    text-shadow: 0 0 0.8em rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    font-family: "bangers";
+
+}
+.heroleft{
+    color: white;
+    margin: 3em 2em 3em 5em;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.Hero p{
+    color: white;
+    margin-top: 1em;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    text-align: center;
+    font-family: roboto;
+}
+.Hero button{
+    color: white;
+    border: 0.2em solid white;
+    border-radius: 2em;
+    width: 10em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-image: linear-gradient(rgba(39, 140, 245, 0.8), rgba(81, 108, 137, 0.28));
+    transition: 0.3s;
+    font-family: "roboto";
+}
+.Hero img{
+    width: 30vw;
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content h2{
+    font-family: bangers;
+    font-size: 5em;
+    color: white;
+    text-shadow: 0 0 0.8em rgb(255, 255, 255);
+}
+
+.content-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1 1 0px;
+}
+
+.content-info img{
+    width: 12em;
+    height: 14em;
+    object-fit: cover;
+    border: 0.3em solid rgb(255, 255, 255);
+    border-radius: 1.5em;
+    box-shadow: 0 10px 30px black;
+    margin: 5px 50px 0px 50px;
+}
+.voidtext, .slantext, .conradtext, .ubiktext, .femtotext{
+text-align: center;
+color: black;
+font-size: 1.7em;
+margin: 1em 0 1em 0;
+font-family: bangers;
+z-index: 2;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+    width: 75%;
+    height: 100%;
+    border-radius: 1.5em;
+    margin: 9em auto 0 auto;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 2em rgb(69, 69, 69);
+    font-family: bangers;
+}
+.quote p {
+    font-size: 36px;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: roboto;
+    font-weight: bold;
+}
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: roboto;
+    font-weight: bold;
+    text-align: right;
+    color: white;
+}
+.read{
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 2em rgb(69, 69, 69);
+}
+.read-item {
+    flex: 1;
+}
+
+.read-text {
+    text-align: left;
+}
+
+.read-text p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+    font-family: roboto;
+    font-size: 20px;
+}
+
+h3 {
+    color: #fff;
+    font-family: bangers;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+    font-size: 40px;
+}
+
+.read-button button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    padding: 5px 25px;
+    font-size: 15px;
+    margin-left: 250px;
+    border: 0.2em solid white;
+    border-radius: 2em;
+    width: 10em;
+    height: 3em;
+    text-decoration: none;
+    background-image: linear-gradient(rgba(39, 140, 245, 0.8), rgba(81, 108, 137, 0.28));
+    transition: 0.3s;
+    font-family: bangers;
+}
+.footer {
+    background-color: transparent;
+    color: #fff;
+    font-family: bangers;
+    text-align: center;
+}
+
